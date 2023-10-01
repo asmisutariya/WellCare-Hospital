@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WellCareHospital"
+        tools:targetApi="31">
+        <activity
+            android:name=".book_appoinment_card"
+            android:exported="false" />
+        <activity
+            android:name=".Book_Appoiment_Page"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbackPage"
+            android:exported="false" />
+        <activity
+            android:name=".map_location"
+            android:exported="false" />
+        <activity
+            android:name=".trydesign"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUsPage"
+            android:exported="false" />
+        <activity
+            android:name=".admin_main_page"
+            android:exported="false" />
+        <activity
+            android:name=".doctor_main_page"
+            android:exported="false" />
+        <activity
+            android:name=".DetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".customlistview"
+            android:exported="false" />
+        <activity
+            android:name=".patient_main_page"
+            android:exported="false" />
+        <activity
+            android:name=".change_password"
+            android:exported="false" />
+        <activity
+            android:name=".forgot_password"
+            android:exported="false" />
+        <activity
+            android:name=".login_page"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding_screen2"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding_screen"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding_screen3"
+            android:exported="false" />
+        <activity
+            android:name=".signup_page"
+            android:exported="false" />
+        <activity
+            android:name=".loading_page"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

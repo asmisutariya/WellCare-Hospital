@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:textAlignment="center"
+    android:padding="5dp"
+    android:background="@color/white">
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="400dp"
+      android:layout_height="300dp"
+      android:layout_marginTop="50dp"
+      app:srcCompat="@drawable/hospital" />
+  <TextView
+      android:id="@+id/tv1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="WellCare Hospital"
+      android:textSize="35dp"
+      android:layout_below="@id/imageView3"
+      android:layout_marginLeft="60dp"
+      android:textColor="@color/black"/>
+
+  <TextView
+      android:id="@+id/tv2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tv1"
+      android:layout_marginTop="5dp"
+      android:text="A very simple and easy to use booking system.Now patient can book the appointment with just few clicks."
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="15dp"
+      android:textStyle="bold"
+      tools:ignore="TextSizeCheck" />
+
+
+  <Button
+      android:id="@+id/btnlogin"
+      android:layout_width="320dp"
+      android:layout_height="wrap_content"
+      android:text="Login"
+      android:textSize="23dp"
+      android:textColor="@color/white"
+      android:background="@drawable/rounded_corner"
+      android:backgroundTint="@color/skyblue"
+      android:layout_marginTop="80dp"
+      android:layout_below="@id/tv2"
+      android:onClick="call_login"
+      android:layout_marginLeft="40dp"/>
+  <TextView
+      android:id="@+id/tv3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="New User?"
+      android:textSize="20dp"
+      android:layout_gravity="center"
+      android:layout_below="@id/btnlogin"
+      android:layout_marginLeft="120dp"
+      android:textColor="@color/black"/>
+
+  <TextView
+      android:id="@+id/txtlogin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/btnlogin"
+      android:layout_marginLeft="220dp"
+      android:minHeight="48dp"
+      android:onClick="call_signup"
+      android:text="Sign Up"
+      android:textColor="@color/skyblue"
+      android:textSize="20dp" />
+</RelativeLayout>
