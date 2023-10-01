@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,24 +7,145 @@
     android:padding="5dp"
     android:orientation="vertical">
     <TextView
+        android:id="@+id/tv23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.wellcarehospital.com"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="About Us"
         android:textSize="35dp"
         android:textStyle="bold"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:textColor="@color/skyblue"/>
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="250dp"
+        android:id="@+id/img13"
+        android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/logo2"/>
+        android:layout_below="@+id/tv16"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/logo1"/>
     <TextView
-        android:id="@+id/tv5"
+        android:id="@+id/tv17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="WellCare Hospital"
-        android:textSize="35dp"
-        android:layout_below="@+id/img"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/img13"
         android:textColor="@color/black"/>
-</LinearLayout>
+
+    <TextView
+        android:id="@+id/tv18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WE CARE YOUR HEALTH"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/tv17"
+        android:textColor="@color/purple"/>
+    <TextView
+        android:id="@+id/tv19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=".24 hour avability"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/tv18"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=".easy to use app"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/tv19"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=".anyone can book appoinment"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/tv20"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=".multiple services/facility"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/tv21"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us for more info."
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/tv22"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/btnwebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="visit the website"
+        android:textColor="@color/skyblue"
+        android:layout_below="@+id/tv24"
+        android:onClick="call_website"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_______________________"
+        android:layout_marginTop="470dp"
+        android:textColor="@color/skyblue"/>
+    <TextView
+        android:id="@+id/btncall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="contact us"
+        android:textSize="20dp"
+        android:textColor="@color/skyblue"
+        android:onClick="call_call"
+        android:layout_below="@+id/btnwebsite"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_______________"
+        android:layout_marginTop="510dp"
+        android:textColor="@color/skyblue"/>
+    <TextView
+        android:id="@+id/btnlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="locate us"
+        android:textSize="20dp"
+        android:onClick="call_map"
+        android:textColor="@color/skyblue"
+        android:layout_below="@+id/btncall"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_____________"
+        android:layout_marginTop="540dp"
+        android:textColor="@color/skyblue"/>
+</RelativeLayout>
