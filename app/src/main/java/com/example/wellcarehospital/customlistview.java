@@ -1,26 +1,26 @@
-//package com.example.wellcarehospital;
-//
-//import androidx.appcompat.app.AppCompatActivity;
-//
-//import android.app.Activity;
-//import android.content.Intent;
-//import android.os.Bundle;
-//import android.view.View;
-//import android.widget.Adapter;
-//import android.widget.AdapterView;
-//
-//import java.util.ArrayList;
-//
-//public class customlistview extends AppCompatActivity {
-//
+package com.example.wellcarehospital;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Adapter;
+import android.widget.AdapterView;
+
+import java.util.ArrayList;
+
+public class customlistview extends AppCompatActivity {
+
 //    ActivityMainBinding binding;
 //    ListAdapter listAdapter;
 //    ArrayList<ListData> dataArrayList = new ArrayList<>();
 //    ListData listData;
-//
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 //        binding = ActivityMainBinding.inflate(getLayoutInflater());
 //        setContentView(binding.getRoot());
 //
@@ -50,5 +50,5 @@
 //                startActivity(intent);
 //            }
 //        });
-//    }
-//}
+    }
+}
