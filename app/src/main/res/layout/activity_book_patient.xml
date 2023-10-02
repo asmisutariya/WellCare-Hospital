@@ -7,7 +7,8 @@
     android:padding="5dp"
     android:gravity="center_horizontal"
     android:orientation="vertical">
-<EditText
+
+    <EditText
     android:layout_width="match_parent"
     android:layout_height="50dp"
     android:id="@+id/ed1"
@@ -47,35 +48,36 @@
         android:padding="15dp"
         android:textColor="@color/black"
         android:layout_marginTop="280dp"/>
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:id="@+id/btn1"
-        android:text="MALE"
-        android:textSize="18dp"
-        android:layout_marginTop="400dp"
-        android:layout_marginRight="100dp"
-        android:backgroundTint="@color/purple"
-        android:onClick="call_male"/>
-
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="400dp"
-        android:layout_toRightOf="@+id/btn1"
-        android:backgroundTint="@color/purple"
-        android:onClick="call_female"
-        android:text="FEMALE"
-        android:textSize="18dp" />
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ed5"
+        android:background="@drawable/custom_edittext"
+        android:hint="Gender"
+        android:textSize="21dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="340dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:id="@+id/btn3"
+        android:id="@+id/btncon"
         android:text="CONFIRM"
         android:textSize="18dp"
         android:layout_marginTop="600dp"
         android:backgroundTint="@color/purple"
         android:onClick="call_confirm"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+
+
 </RelativeLayout>
