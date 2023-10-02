@@ -94,39 +94,51 @@
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/cardview_dark_background"
                 android:layout_marginTop="20dp"/>
-            <RadioGroup
-                android:layout_marginTop="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="28dp"
-                android:orientation="horizontal">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/gender"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_transgender_24"
+                android:drawablePadding="8dp"
+                android:hint="Gender"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="20dp"/>
+<!--            <RadioGroup-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="28dp"-->
+<!--                android:orientation="horizontal">-->
 
-                <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="8dp"
-                    android:background="@drawable/rounded_corner"
-                    android:button="@drawable/null_radio_button"
-                    android:drawableLeft="@drawable/baseline_male_24"
-                    android:elevation="4dp"
-                    android:gravity="center"
-                    android:paddingHorizontal="40dp"
-                    android:text="Male"
-                    android:textColor="@drawable/radio_text_selector"
-                    tools:ignore="TouchTargetSizeCheck" />
+<!--                <RadioButton-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginHorizontal="8dp"-->
+<!--                    android:background="@drawable/rounded_corner"-->
+<!--                    android:button="@drawable/null_radio_button"-->
+<!--                    android:drawableLeft="@drawable/baseline_male_24"-->
+<!--                    android:elevation="4dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:paddingHorizontal="40dp"-->
+<!--                    android:text="Male"-->
+<!--                    android:textColor="@drawable/radio_text_selector"-->
+<!--                    tools:ignore="TouchTargetSizeCheck" />-->
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_corner"
-                    android:button="@drawable/null_radio_button"
-                    android:drawableLeft="@drawable/baseline_female_24"
-                    android:elevation="4dp"
-                    android:gravity="center"
-                    android:paddingHorizontal="40dp"
-                    android:text="Female"
-                    android:textColor="@drawable/radio_text_selector"
-                    tools:ignore="TouchTargetSizeCheck" />
-            </RadioGroup>
+<!--                <RadioButton-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@drawable/rounded_corner"-->
+<!--                    android:button="@drawable/null_radio_button"-->
+<!--                    android:drawableLeft="@drawable/baseline_female_24"-->
+<!--                    android:elevation="4dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:paddingHorizontal="40dp"-->
+<!--                    android:text="Female"-->
+<!--                    android:textColor="@drawable/radio_text_selector"-->
+<!--                    tools:ignore="TouchTargetSizeCheck" />-->
+<!--            </RadioGroup>-->
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"

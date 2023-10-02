@@ -144,7 +144,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/tv12"
                         android:textSize="20dp"
-                        android:text="Manage Schedule"
+                        android:text="View Patient"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:layout_marginTop="10dp"
@@ -166,6 +166,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 app:cardElevation="20dp"
+                android:onClick="call_feedback"
                 app:cardCornerRadius="20dp">
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -240,6 +241,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 app:cardElevation="20dp"
+                android:onClick="call_aboutus"
                 app:cardCornerRadius="20dp">
                 <RelativeLayout
                     android:layout_width="match_parent"

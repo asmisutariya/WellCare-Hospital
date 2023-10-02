@@ -26,6 +26,16 @@ public class patient_main_page extends AppCompatActivity {
             }
         });
     }
+    public void call_patientprofile(View v)
+    {
+        Intent i = new Intent(getApplicationContext(),patient_profile_page.class);
+        startActivity(i);
+    }
+    public void call_feedback(View v)
+    {
+        Intent i = new Intent(getApplicationContext(),FeedbackPage.class);
+        startActivity(i);
+    }
     public void call_em(View v)
     {
         Intent i = new Intent(getApplicationContext(), onboarding_screen3.class);

@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">WellCare Hospital</string>
+
+    //pasta
+
+    <string name="pastaIngredients">Pasta
+        \nCream Cheese
+        \nParmesan
+        \nOlive oil
+    </string>
+    <string name="pastaDesc">Cook your pasta until at dente
+    \nSaute garlic in olive oil until fragrant
+    \nAdd cream cheese,pasta cooking water,parmesan, and stir well
+    </string>
+
+    //maggi
+
+    <string name="maggiIngredients">Maggi Noodles
+        \nWater
+    </string>
+
+    <string name="maggiDesc">Add one and halfcup of water
+        \nAdd maggi
+    </string>
+
 </resources>

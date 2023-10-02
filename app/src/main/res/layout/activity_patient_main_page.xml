@@ -90,6 +90,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 app:cardCornerRadius="20dp"
+                android:onClick="call_patientprofile"
                 app:cardElevation="20dp">
 
                 <RelativeLayout
@@ -166,6 +167,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 app:cardElevation="20dp"
+                android:onClick="call_feedback"
                 app:cardCornerRadius="20dp">
                 <RelativeLayout
                     android:layout_width="match_parent"

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient's Profile"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_marginLeft="90dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:id="@+id/tvpro"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:id="@+id/tvfname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/etfname"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:hint="Enter Full Name"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvfname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email ID"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/etfname"
+        android:id="@+id/tvemail"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/etemail"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:hint="Enter Email ID"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvemail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moblie No"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/etemail"
+        android:id="@+id/tvmno"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/etmno"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:hint="Enter Moblie No"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvmno"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/etmno"
+        android:id="@+id/tvage"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/etage"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:hint="Enter Age"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/etage"
+        android:id="@+id/tvgender"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/etgender"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:hint="Enter Gender"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvgender"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/signupbutton"
+        android:text="Update"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple"
+        android:layout_below="@+id/etgender"/>
+</RelativeLayout>
