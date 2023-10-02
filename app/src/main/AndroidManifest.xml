@@ -15,7 +15,7 @@
         <activity
             android:name=".book_patient"
             android:exported="false" />
-             <activity
+        <activity
             android:name=".patient_profile_page"
             android:exported="false" />
         <activity
