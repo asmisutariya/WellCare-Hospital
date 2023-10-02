@@ -17,10 +17,10 @@ public class customlistview extends AppCompatActivity {
 //    ListAdapter listAdapter;
 //    ArrayList<ListData> dataArrayList = new ArrayList<>();
 //    ListData listData;
-//
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 //        binding = ActivityMainBinding.inflate(getLayoutInflater());
 //        setContentView(binding.getRoot());
 //
@@ -50,5 +50,5 @@ public class customlistview extends AppCompatActivity {
 //                startActivity(intent);
 //            }
 //        });
-//    }
+    }
 }

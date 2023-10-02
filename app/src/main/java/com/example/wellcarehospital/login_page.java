@@ -31,7 +31,7 @@ public class login_page extends AppCompatActivity {
     EditText password;
     Button loginButton;
 
-    FirebaseAuth mAuth;
+    private FirebaseAuth mAuth;
     FirebaseUser user;
     private DatabaseReference mDatabaseRefrence;
     private static final String TAG = "EmailPassword";
